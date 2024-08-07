@@ -12,6 +12,7 @@ updates:
     commit-message:
       include: scope
     open-pull-requests-limit: 10
+    rebase-strategy: auto
     labels:
       - dependencies
     allow:
