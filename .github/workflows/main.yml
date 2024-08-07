@@ -1,0 +1,19 @@
+name: Security Analysis
+
+on: [push, pull_request]
+
+jobs:
+  security_checks:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Step 1 - Checkout code
+        uses: actions/checkout@v4
+
+      - name: Step 2 - Run CodeQL Analysis
+        uses: github/codeql-action/init@v3
+        with:
+          languages: python
+
+      - name: Step 3 - Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
