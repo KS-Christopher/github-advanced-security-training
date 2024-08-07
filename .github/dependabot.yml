@@ -9,3 +9,11 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    commit-message:
+      include: scope
+    open-pull-requests-limit: 10
+    labels:
+      - dependencies
+    allow:
+      - dependency-type: direct
+      - dependency-type: indirect
