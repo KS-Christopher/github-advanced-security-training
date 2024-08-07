@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 flask = "==2.2.5"
-markdown = "==3.1.1"
+markdown = "==3.6"
 cryptography = "==42.0.4"
 pyyaml = "==5.3"
 django = "==3.2.25"        
