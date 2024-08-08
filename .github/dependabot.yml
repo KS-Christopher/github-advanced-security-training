@@ -14,6 +14,11 @@ updates:
     open-pull-requests-limit: 10
     rebase-strategy: auto
     versioning-strategy: increase
+    groups:
+      production-dependencies:
+        dependency-type: production
+      development-dependencies:
+        dependency-type: development
     labels:
       - dependencies
     allow:

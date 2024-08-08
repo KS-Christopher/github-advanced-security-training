@@ -17,3 +17,6 @@ jobs:
 
       - name: Step 3 - Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
+
+      - name: Step 4 - Dependency Review
+        uses: actions/dependency-review-action@v4
