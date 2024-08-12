@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "==2.2.5"
+flask = "==2.0.0"
 markdown = "==3.1.1"
-cryptography = "==42.0.4"
+cryptography = "==3.2"
 pyyaml = "==5.3"
-django = "==3.2.25"        
-requests = "==2.32.2"   
+django = "==2.2.9"        
+requests = "==2.18.4"   
 sqlalchemy = "==1.3.0"
 
 [dev-packages]
