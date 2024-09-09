@@ -5,13 +5,6 @@ from flask import Flask, request, redirect
 
 app = Flask(__name__)
 
-# Hardcoded credentials
-USERNAME = 'admin'
-PASSWORD = 'password'
-
-# Hardcoded API key
-API_KEY = '12345-abcdef-67890-ghijk'
-
 # SQL Injection vulnerability
 def get_user(username):
     query = f"SELECT * FROM users WHERE username = '{username}'"
